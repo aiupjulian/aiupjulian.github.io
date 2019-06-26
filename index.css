@@ -1,15 +1,10 @@
-.container {
-  display: flex;
-}
-
-.cv-part {
-  flex: 1;
-}
-
-.cv-part:first-child {
+body {
+  align-items: center;
   background-color: #263238;
-}
-
-.cv-part:last-child {
-  background-color: #4285F4;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  font-family: Verdana, Geneva, sans-serif;
+  justify-content: center;
+  min-height: 100vh;
 }
